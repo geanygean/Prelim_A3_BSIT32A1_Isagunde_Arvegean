@@ -1,0 +1,98 @@
+/* styles/home.css */
+.home-container {
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background-image: url('images.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-container h1 {
+    font-size: 4.5rem;
+    color: rgb(13, 51, 99); 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(255, 254, 254, 0.5);
+}
+
+.home-container p {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+
+.about-container {
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(85, 126, 249);
+    background-color: rgba(113, 113, 234, 0.668);
+    backface-visibility: visible;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mission-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #efdd71; 
+    margin-top: 20px;
+}
+
+.mission-text {
+    font-size: 1.2rem;
+    max-width: 700px;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.contact-container {
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(5, 5, 5);
+    background-color: rgba(93, 93, 236, 0.885);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-details {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.6;
+    background: rgba(97, 159, 225, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.contact-details a {
+    color: #FFD700; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
